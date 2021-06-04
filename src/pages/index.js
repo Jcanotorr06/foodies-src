@@ -1,0 +1,8 @@
+export {default as Landing} from './Landing'
+export {default as Category} from './Category'
+export {default as Origin} from './Origin'
+export {default as Search} from './Search'
+export {default as Recipe} from './Recipe'
+export {default as Categories} from './Categories'
+export {default as Origins} from './Origins'
+export {default as Random} from './Random'

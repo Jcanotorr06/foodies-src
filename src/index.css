@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'PlayfairDisplay' ;
+    src: url('./fonts/PlayfairDisplay-Bold.ttf');
+}
+
+@font-face {
+    font-family:'Inter' ;
+    src: url('./fonts/Inter-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family:'Inter' ;
+    src: url('./fonts/Inter-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family:'Inter' ;
+    src: url('./fonts/Inter-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@layer base{
+    button {
+        @apply bg-primary;
+        @apply text-lightestGray;
+        @apply rounded-full;
+        @apply font-secondary;
+        @apply font-semibold;
+    }
+    h1, h2, h3, h4, h5, h6{
+        @apply font-primary
+    }
+    h1 {
+        @apply text-h1
+    }
+    h2 {
+        @apply text-h2
+    }
+    h3 {
+        @apply text-h3
+    }
+    h4 {
+        @apply text-h4
+    }
+    h5 {
+        @apply text-h5
+    }
+    h6 {
+        @apply text-h6
+    }
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.bg{
+    z-index: -1;
+}
